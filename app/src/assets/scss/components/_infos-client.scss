@@ -1,0 +1,34 @@
+//----------------------------------
+// Infos component
+//----------------------------------
+
+.infos-client{
+  display: flex;
+  > div{
+    flex: 1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    align-items: center;
+    > div{
+      font-family: $ff-arial;
+      font-size: $fs-small;
+      line-height: normal;
+      &:nth-child(odd){
+        justify-self: end;
+        text-align: end;
+        @include respond-to('small') {
+          justify-self: start;
+          text-align: start;
+        }
+      }
+    }
+  }
+  @include respond-to('medium') {
+    display: block;
+    > div{
+      margin-bottom: 10px;
+    }
+  }
+}
+

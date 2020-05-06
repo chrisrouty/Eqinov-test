@@ -1,0 +1,89 @@
+//----------------------------------
+// Typography Variables
+//----------------------------------
+
+//Fonts
+$ff-arial: 'arial', sans-serif;
+
+//Sizes 
+$fs-h1: 34px;
+$fs-h2: 22px;
+$fs-h3: 16px;
+
+$fs-medium: 18px;
+$fs-normal: 16px;
+$fs-small: 14px;
+$fs-xsmall: 12px;
+
+//weight
+$fw-light: 200;
+$fw-normal: 400;
+$fw-bold: 700;
+
+//Lineheight
+
+
+//----------------------------------
+// Typography Components
+//----------------------------------
+
+//Title
+h1{
+  font-family: $ff-arial;
+  font-size: $fs-h1;
+  color: $color-text;
+  font-weight: $fw-bold;
+  line-height: normal;
+}
+
+h2{
+  font-family: $ff-arial;
+  font-size: $fs-h2;
+  color: $color-text;
+  font-weight: $fw-bold;
+  line-height: normal;
+  @include respond-to('small') {
+    font-size: 20px; 
+  }
+}
+
+h3{
+  font-family: $ff-arial;
+  font-size: $fs-h3;
+  color: $color-text;
+  font-weight: $fw-bold;
+  line-height: normal;
+}
+
+p{
+  font-family: $ff-arial;
+  font-size: $fs-normal;
+  color: $color-text;
+  font-weight: $fw-normal;
+  line-height: normal;
+}
+
+li{
+  font-family: $ff-arial;
+  font-size: $fs-normal;
+  color: $color-text;
+  font-weight: $fw-normal;
+  line-height: normal;
+}
+
+span{
+  font-family: $ff-arial;
+  line-height: normal;
+}
+
+strong{
+  font-weight: $fw-bold;
+  line-height: normal;
+}
+
+sub{
+  font-size: $fs-small;
+  @include respond-to('small') {
+    display: block;
+  }
+}

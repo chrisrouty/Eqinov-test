@@ -1,0 +1,53 @@
+//----------------------------------
+// Table component
+//----------------------------------
+
+#conso{
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  > header{
+    background-color: $color-primary;
+    color: white;
+    > div{
+      border-bottom: none !important;
+    }
+  }
+  > div{
+    background-color: $color-light;
+  }
+  header, div{
+    padding: 13px 20px;
+    text-align: center;
+    > div{
+      font-size: $fs-medium;
+      font-weight: $fw-bold;
+      font-family: $ff-arial;
+      border: 1px solid $color-border-table;
+      border-right: none !important;
+      &:last-child{
+        border-right: 1px solid $color-border-table !important;
+      }
+    }
+  }
+  > svg{
+    position: absolute;
+    transform: translate(0, -50%) !important;
+    font-size: 32px;
+    display: none;
+    visibility: hidden;
+    @include respond-to('medium') {
+      display: block;
+      visibility: visible;
+    } 
+    &[data-icon*=left]{
+      top: 50%;
+      left: 0;
+    }
+    &[data-icon*=right]{ 
+      top: 50%;
+      right: 0;
+    }
+  }
+}
+

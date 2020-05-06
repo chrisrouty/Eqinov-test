@@ -1,0 +1,18 @@
+//----------------------------------
+// Table CSS
+//----------------------------------
+
+.table{
+  display: table;
+  width: 100%;
+  > header, div{
+    display: table-row;
+    > div{
+      display: table-cell;
+    }
+  }
+  @include respond-to('large') {
+    display: block;
+    overflow-x: scroll !important;
+  }
+}

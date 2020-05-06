@@ -1,0 +1,64 @@
+{
+	"name": "Papeteries d'Issy les Moulineaux",
+	"address": 
+			{ 	
+				"street":"89 rue du Gouverneur Général Eboué",
+				"postcode":92130,
+				"city":"Issy-les-Moulineaux"
+			},
+	"siret": "30647367900018",
+	"type": "Télé relève",
+	"Contrat": "EqiFlex",
+	"Dispo": "[7h-15h] et [18h-20h]",
+	"conso": 
+			[ 
+				{ 	
+					"start":"2020-01-01T00:00:00+02:00",
+					"end":"2020-01-31T00:00:00+02:00",
+					"value":90
+				},
+				{ 	
+					"start_date":"2020-02-01T00:00:00+02:00",
+					"end":"2020-02-29T00:00:00+02:00",
+					"value":50
+				},
+				{ 	
+					"start_date":"2020-03-01T00:00:00+02:00",
+					"end":"2020-03-31T00:00:00+02:00",
+					"value":60
+				},
+				{ 	
+					"start_date":"2020-04-01T00:00:00+02:00",
+					"end":"2020-04-30T00:00:00+02:00",
+					"value":67
+				},
+				{ 	
+					"start_date":"2020-05-01T00:00:00+02:00",
+					"end":"2020-05-31T00:00:00+02:00",
+					"value":89
+				}
+			],
+	"contacts": 
+			[ 
+				{ 	
+					"firstname":"Walter",
+					"lastname":"White",
+					"function":"Directeur"
+				},
+				{ 	
+					"firstname":"Jesse",
+					"lastname":"Pickman",
+					"function":"Directeur adjoint"
+				},
+				{ 	
+					"firstname":"Hank",
+					"lastname":"Schrader",
+					"function":"Responsable exploitation"
+				},
+				{ 	
+					"firstname":"Mike",
+					"lastname":"Ehrmantraut",
+					"function":"Opérateur"
+				}
+			]
+}

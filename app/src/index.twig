@@ -1,0 +1,25 @@
+{% extends "./templates/layout.twig" %}
+
+{% block title %}Eqinov : Papeteries d'Issy les Moulineaux{% endblock %}
+
+{% block header %}
+    {{ parent() }}
+{% endblock %}
+
+{% block content %}
+    <section>
+        {% block infosClient %}
+            {% include "./templates/components/infos-client.twig" %}
+        {% endblock %}
+    </section>
+    <section>
+        {% block tableConso %}
+            {% include "./templates/components/table-conso.twig" %}
+        {% endblock %}
+    </section>
+    <section>
+        {% block listContact %}
+            {% include "./templates/components/list-contacts.twig" %}
+        {% endblock %}
+    </section>
+{% endblock %} 
