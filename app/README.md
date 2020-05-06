@@ -8,19 +8,21 @@ Maquette réalisé avec Figma : https://www.figma.com/file/F9evkC1cYXNAX2DYkY1he
 
 
 
-#### Installer les dépendances
+### Installer les dépendances
 
 `yarn install` ou `npm install`
 
 
-#### Lancer le mock API
+
+### Lancer le mock API
 
 Se rendre dans le dossier `cd mock`
 
 Lancer la commande `java -jar wiremock-standalone-2.24.1.jar`
 
 
-#### Lancer le webserver
+
+### Lancer le webserver
 
 Se rendre dans le dossier `cd app`
 
