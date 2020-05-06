@@ -30,7 +30,7 @@ Se rendre dans le dossier `cd app`
 
 
 
-#### Compiler le projet
+### Compiler le projet
 
 `yarn build` ou `npm build`
 
