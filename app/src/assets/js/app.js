@@ -1,8 +1,4 @@
-const axios = require('axios');
-const Twig = require('twig');
-
 import "../scss/index.scss";
-// import "../images/logo.png";
 
 const API_URL = 'http://localhost:8080/eqinov/front/test';
 
