@@ -4,7 +4,9 @@ Projet réalisé avec Webpack, Sass, ES6, TwigJs, Iconify (svg).
 
 Interface web responsive.
 
-Maquette réalisé avec Figma : https://www.figma.com/file/F9evkC1cYXNAX2DYkY1hee/Eqinov-Template?node-id=15%3A2
+Wireframe réalisé avec Figma : https://www.figma.com/file/F9evkC1cYXNAX2DYkY1hee/Eqinov-Template?node-id=15%3A2
+
+Prototype figma : https://www.figma.com/proto/F9evkC1cYXNAX2DYkY1hee/Eqinov-Template?node-id=23%3A1402&viewport=756%2C527%2C0.5819594264030457&scaling=scale-down
 
 
 
