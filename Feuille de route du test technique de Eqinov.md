@@ -8,7 +8,7 @@ Prise de connaissance et analyse du test technique.
 
 ##### Mise en place d'un environnement de travail pour le test technique de Eqinov :
 
-J'ai fais le choix de développer un starter webflow avec Webpack pour la compilation des javascripts, des feuilles de styles en Scss ainsi que du moteur de templating TwigJS. Je me suis inspiré de différents Webflow trouvé sur github et de mon expérience.
+J'ai fait le choix de développer un starter webflow avec Webpack pour la compilation des javascripts, des feuilles de styles en Scss ainsi que du moteur de templating TwigJS. Je me suis inspiré de différents Webflow trouvé sur github et de mon expérience.
 
 Ce développement a été fait en 4 heures environs.
 
@@ -18,7 +18,7 @@ Ce développement a été fait en 4 heures environs.
 
 Mise en place de l'architecture des assets Js, Scss, images et fonts.
 
-Intégration de l'IHM fournis en respectant la consigne de la mise en place de breakpoints pour la compatibilité de l'interface utilisateur sur les supports desktop, tablette et mobile. J'ai fais le choix de partir sur le concept du first desktop pour un gain de temps et pars manque de wireframe plus complet sur le rendu attendu.
+Intégration de l'IHM fournis en respectant la consigne de la mise en place de breakpoints pour la compatibilité de l'interface utilisateur sur les supports desktop, tablette et mobile. J'ai fait le choix de partir sur le concept du first desktop pour un gain de temps et pars manque de wireframe plus complet sur le rendu attendu.
 
 Récupération des données afin d'avoir un contenu dynamique. J'aurai voulu rendre les données avec le système de templating Twig mais je n'y suis pas parvenu. J'ai donc exploité et rendu les données directement avec javascript.
 
